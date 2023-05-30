@@ -3,25 +3,25 @@ vim.cmd('colorscheme everforest')
 vim.fn.sign_define({
   {
     name = 'DiagnosticSignError',
-    text = '',
+    text = 'E',
     texthl = 'DiagnosticSignError',
     linehl = 'ErrorLine',
   },
   {
     name = 'DiagnosticSignWarn',
-    text = '',
+    text = 'W',
     texthl = 'DiagnosticSignWarn',
     linehl = 'WarningLine',
   },
   {
     name = 'DiagnosticSignInfo',
-    text = '',
+    text = 'I',
     texthl = 'DiagnosticSignInfo',
     linehl = 'InfoLine',
   },
   {
     name = 'DiagnosticSignHint',
-    text = '',
+    text = 'H',
     texthl = 'DiagnosticSignHint',
     linehl = 'HintLine',
   },
